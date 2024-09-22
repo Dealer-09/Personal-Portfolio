@@ -21,6 +21,8 @@
 .light-theme {
     --body-color: #fff;
     --bg-color: #090a1a;
+    --container-color: #dae0ff;
+    --box-color: #dae0ff;
 }
 
 body {

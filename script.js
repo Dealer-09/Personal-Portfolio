@@ -8,6 +8,13 @@ window.onscroll = () =>{
     navbar.classList.remove("open-menu")
     menu.classList.remove("move");
 }
+var icon=document.getElementById("icon");
+icon.onclick=function(){
+    document.body.classList.toggle("light-theme");
+    if(document.body.classList.contains("light-theme")){
+        icon.src="images/sun.png";
+    }
+}
 // review swiper 
 var swiper = new Swiper(".reviews-content", {
     spaceBetween: 30,

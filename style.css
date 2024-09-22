@@ -18,6 +18,11 @@
     --bg-color: #fff;
 }
 
+.light-theme {
+    --body-color: #fff;
+    --bg-color: #090a1a;
+}
+
 body {
     color: var(--bg-color);
     background: var(--body-color);
@@ -87,9 +92,12 @@ header {
 
 .navbar {
     display: flex;
-    align-items: center;
+    flex-direction: row-reverse;
+    flex: 1;
     column-gap: 1.5rem;
+    text-align: right;
 }
+
 
 .nav-link {
     font-size: 0.94rem;
@@ -102,6 +110,11 @@ header {
     color: var(--main-color);
     background: var(--container-color);
     transition: 0.3s all linear;
+}
+
+#icon {
+    width: 30px;
+    cursor: pointer;
 }
 
 .menu-icon {

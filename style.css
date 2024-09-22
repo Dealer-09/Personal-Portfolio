@@ -506,7 +506,6 @@ header {
     .container {
         margin: 0 auto;
         width: 90%;
-
     }
 }
 
@@ -649,7 +648,7 @@ header {
         grid-template-columns: 1fr;
     }
 
-    .seervices-content {
+    .services-content {
         grid-template-columns: 1fr;
     }
 

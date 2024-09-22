@@ -52,7 +52,6 @@ section {
 
 a {
     text-decoration: none;
-
 }
 
 li {
@@ -76,7 +75,6 @@ header {
 .header-active {
     background: var(--box-color);
     transition: 0.4s;
-
 }
 
 .nav {
@@ -176,7 +174,6 @@ header {
     background: #98a7fc;
     overflow: hidden;
     margin-bottom: 2rem;
-
 }
 
 .home-img {
@@ -184,7 +181,6 @@ header {
     height: 180px;
     object-fit: cover;
     object-position: center;
-
 }
 
 .home-text {
@@ -315,13 +311,13 @@ header {
     margin-bottom: 1.5rem;
 }
 
-.location-content {
+.services-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
-.location-box {
+.services-box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -332,13 +328,13 @@ header {
     transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.location-box:hover {
+.services-box:hover {
     transform: scale(1.05);
     transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
 
 }
 
-.location-box .bx {
+.services-box .bx {
     font-size: 1.4rem;
     color: var(--main-color);
     padding: 10px;
@@ -346,31 +342,24 @@ header {
     border: 2px dashed var(--bg-color);
 }
 
-.location-box h2 {
+.services-box h2 {
     font-size: 1.1rem;
     font-weight: 5rem;
     margin: 0.5rem 0;
     color: var(--main-color);
-
 }
 
-.location-box p {
+.services-box p {
     font-size: 0.9rem;
 }
 
-.subject-content {
+.portfolio-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
 
-.subject-content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-}
-
-.subject-box {
+.portfolio-box {
     position: relative;
     width: 100%;
     height: 320px;
@@ -378,14 +367,14 @@ header {
     overflow: hidden;
 }
 
-.subject-img {
+.portfolio-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.subject-overlay {
+.portfolio-overlay {
     position: absolute;
     top: -100%;
     left: 0;
@@ -398,13 +387,13 @@ header {
     background: hsl(234, 45%, 16%, 0.7);
 }
 
-.subject-overlay h2 {
+.portfolio-overlay h2 {
     font-size: 1.6rem;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.subject-overlay .bx {
+.portfolio-overlay .bx {
     font-size: 24px;
     padding: 10px;
     background: var(--main-color);
@@ -412,13 +401,12 @@ header {
     border-radius: 4px;
 }
 
-.subject-overlay .bx:hover {
+.portfolio-overlay .bx:hover {
     background: #546eff;
     transition: 0.3s all linear;
-
 }
 
-.subject-box:hover .subject-overlay {
+.portfolio-box:hover .portfolio-overlay {
     top: 0;
     transition: 0.3s all ease;
 }
@@ -458,7 +446,6 @@ header {
 .contact-form .send-btn:hover {
     background: #546eff;
     transition: 0.3s all linear;
-
 }
 
 .footer {
@@ -467,27 +454,22 @@ header {
     flex-direction: column;
     row-gap: 1.4rem;
     padding: 30px 0;
-
 }
 
 .footer p {
     font-size: 0.9rem;
-
 }
 
 .footer-links {
     display: flex;
     align-items: center;
     column-gap: 1rem;
-
-
 }
 
 .footer-links a {
     font-size: 1rem;
     font-weight: 400;
     color: var(--bg-color);
-
 }
 
 .footer-links a:hover {
@@ -499,7 +481,6 @@ header {
     position: fixed;
     bottom: -100%;
     right: 1.5rem;
-
 }
 
 .scroll-top .bx {
@@ -542,9 +523,8 @@ header {
         font-size: 4rem;
     }
 
-    .subject-box {
+    .portfolio-box {
         height: 257px;
-
     }
 
 }
@@ -576,11 +556,11 @@ header {
         font-size: 0.825rem;
     }
 
-    .location-content {
+    .services-content {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .subject-box {
+    .portfolio-box {
         height: 245px;
     }
 
@@ -610,7 +590,6 @@ header {
     .nav-link {
         display: block;
         margin: 1rem 0;
-
     }
 }
 
@@ -645,18 +624,15 @@ header {
     .home-img {
         width: 140px;
         height: 140px;
-
     }
 
     .home-text h2 {
         font-size: 2.1rem;
         line-height: 3.2rem;
-
     }
 
     .home-text p br {
         display: contents;
-
     }
 
     .heading {
@@ -669,16 +645,12 @@ header {
         margin: 0.6rem;
     }
 
-    .subject-content {
+    .portfolio-content {
         grid-template-columns: 1fr;
     }
 
-    .location-content {
+    .seervices-content {
         grid-template-columns: 1fr;
-    }
-
-    .review-box .review-text {
-        font-size: 0.82rem;
     }
 
     .footer-links {
@@ -692,7 +664,7 @@ header {
         width: 100%;
     }
 
-    .subject-box {
+    .portfolio-box {
         height: 190px;
     }
 }

@@ -33,13 +33,10 @@ body {
 html::-webkit-scrollbar {
     width: 0.5rem;
     background: transparent;
-
 }
 
 html::-webkit-scrollbar-thumb {
-
     background: var(--heading-color);
-
 }
 
 img {
@@ -331,7 +328,6 @@ header {
 .services-box:hover {
     transform: scale(1.05);
     transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
-
 }
 
 .services-box .bx {
@@ -417,7 +413,6 @@ header {
     width: 100%;
     display: grid;
     row-gap: 1rem;
-
 }
 
 .contact-form input,
@@ -532,18 +527,15 @@ header {
 
     .logo {
         font-size: 1.1rem;
-
     }
 
     .home {
         min-height: 500px;
         padding-top: 6rem;
-
     }
 
     .home-text h3 {
         font-size: 1rem;
-
     }
 
     .home-text h2 {
@@ -557,10 +549,6 @@ header {
 
     .services-content {
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .portfolio-box {
-        height: 245px;
     }
 
     .menu-icon {
@@ -589,6 +577,10 @@ header {
     .nav-link {
         display: block;
         margin: 1rem 0;
+    }
+
+    .portfolio-box {
+        height: 245px;
     }
 }
 
@@ -644,11 +636,11 @@ header {
         margin: 0.6rem;
     }
 
-    .portfolio-content {
+    .services-content {
         grid-template-columns: 1fr;
     }
 
-    .services-content {
+    .portfolio-content {
         grid-template-columns: 1fr;
     }
 

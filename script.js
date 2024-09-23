@@ -18,19 +18,6 @@ icon.onclick=function(){
         icon.src="images/sun.png";
     }
 }
-// review swiper 
-var swiper = new Swiper(".reviews-content", {
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: true,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
 //   email 
 function validate(){
     let name= document.querySelector(".name");

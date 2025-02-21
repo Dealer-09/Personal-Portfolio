@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2020",                                /* Updated to ES2020 for better compatibility */
+    "lib": ["es2020", "dom"],                          /* Ensure compatibility with modern JavaScript and browser APIs */
+    
+    /* Modules */
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true,                              /* Skipping .d.ts file checks to avoid type issues */
+    
+    /* Node.js and Compatibility */
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
+  }
+}
